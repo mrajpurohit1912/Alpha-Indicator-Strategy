@@ -15,10 +15,11 @@ It is designed for traders and quants who want to experiment with technical indi
 ---
 
 ## 📂 Repository Structure
-├── Untitled.ipynb # Exploratory notebook (data & strategy testing)
-├── main_class.py # Main execution class for strategies
+```bash
+├── backtest.ipynb # Exploratory notebook (data & strategy testing)
+├── live.py # Main execution class for strategies
 └── README.md # Documentation
-
+```
 
 ---
 
@@ -40,12 +41,12 @@ pip install -r requirements.txt
 
 4.Run Backtests:
 ```bash
-python main_class.py --mode backtest --strategy your_strategy_name
+backtest.ipynb
 ```
 
 5. Take strategy live:
 ```bash
-python main_class.py --mode live --strategy your_strategy_name
+python live.py 
 ```
 
 
